@@ -9006,11 +9006,11 @@ MonoBehaviour:
     maximumSpread: 15
     spreadIncreaseRate: 0.15
   - weaponType: 2
-    shootType: 0
+    shootType: 1
     bulletsPerShot: 1
     defaultFireRate: 3
     fireRate: 3
-    burstAvalible: 0
+    burstAvalible: 1
     burstActive: 0
     burstBulletsPerShot: 0
     burstFireRate: 0
