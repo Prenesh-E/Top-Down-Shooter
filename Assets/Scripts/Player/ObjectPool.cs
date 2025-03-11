@@ -7,9 +7,16 @@ public class ObjectPool : MonoBehaviour
     public static ObjectPool instance;
 
     [SerializeField] private GameObject bulletPrefab;
+    [SerializeField] private GameObject effectPrefab;
+    [SerializeField] private GameObject itemPrefab;
+
     [SerializeField] private int poolSize = 10;
 
     private Queue<GameObject> bulletPool;
+    private Queue<GameObject> effectPool;
+    private Queue<GameObject> itemPool;
+
+    private Dictionary<string, GameObject> poolDictionary = new Dictionary<string, GameObject>();
 
 
     private void Awake()
