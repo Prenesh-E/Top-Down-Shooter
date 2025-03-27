@@ -1323,7 +1323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0c9a8d6a6e2f9fb4391e479846f9f628, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletPrefab: {fileID: 709851603379088992, guid: 5d6f9576cecc23b428a0b635b90998be, type: 3}
   poolSize: 50
 --- !u!4 &269619838
 Transform:
@@ -9000,7 +8999,7 @@ MonoBehaviour:
     totalReserveAmmo: 6161
     reloadSpeed: 1
     equipmentSpeed: 1
-    gunDistance: 6
+    gunDistance: 4
     cameraDistance: 7
     baseSpread: 15
     maximumSpread: 15
@@ -9020,7 +9019,7 @@ MonoBehaviour:
     totalReserveAmmo: 99999999
     reloadSpeed: 1
     equipmentSpeed: 1
-    gunDistance: 6
+    gunDistance: 8
     cameraDistance: 6
     baseSpread: 15
     maximumSpread: 15
